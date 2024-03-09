@@ -1,0 +1,45 @@
+import styled from "styled-components";
+
+const Payment = styled.div`
+  margin-top: 20px;
+
+  .card {
+    border: none;
+    -webkit-box-shadow: 1px 0 20px rgba(96, 93, 175, 0.05);
+    box-shadow: 1px 0 20px rgba(96, 93, 175, 0.05);
+    margin-bottom: 30px;
+  }
+  .table th {
+    font-weight: 500;
+    color: #827fc0;
+  }
+  .table thead {
+    background-color: #f3f2f7;
+  }
+  .table > tbody > tr > td,
+  .table > tfoot > tr > td,
+  .table > thead > tr > td {
+    padding: 14px 12px;
+    vertical-align: middle;
+  }
+  .table tr td {
+    color: #8887a9;
+  }
+  .thumb-sm {
+    height: 32px;
+    width: 32px;
+  }
+  .badge-soft-warning {
+    background-color: rgba(248, 201, 85, 0.2);
+    color: #f8c955;
+  }
+
+  .badge {
+    font-weight: 500;
+  }
+  .badge-soft-primary {
+    background-color: rgba(96, 93, 175, 0.2);
+    color: #605daf;
+  }
+`;
+export default Payment;
